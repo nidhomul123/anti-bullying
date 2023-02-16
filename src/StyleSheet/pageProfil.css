@@ -1,0 +1,97 @@
+.profil-user {
+    width: 70%;
+}
+.profilpsikolog table th h6{
+    font-size: 2vw;
+}
+
+.profilpsikolog table td h6 {
+    font-size: 2vw;
+}
+.foto-profil img {
+    width: 15vw;
+    height: auto;
+}
+
+.icon-desc img {
+    width: 2vw;
+    height: 2vw;
+}
+
+.icon-desc {
+    width: 12%;
+    padding: 0;
+}
+
+.desc-table table{
+    margin-top: 1vw;
+}
+
+.desc-table table tr td h6 {
+    font-weight: 400;
+    font-size: 1.6vw;
+    margin-bottom: 0;
+}
+
+#more button {
+    font-size: 1.2vw;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.2vw;
+    font-weight: 400;
+    background-color: #1366C3;
+    border-radius: 0.4vw;
+    border-color: #1366C3;
+}
+
+#more button:hover {
+    font-size: 1.2vw;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.2vw;
+    font-weight: 400;
+    color: #1366C3;
+    background-color: white;
+    border-color: #1366C3;
+}
+
+.profilpsikolog h4 {
+    font-weight: 600;
+    font-size: 2vw;
+    color: #1366C3;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.2vw;
+}
+
+#jadwal button {
+    font-size: 2vw;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.2vw;
+    font-weight: 400;
+    color: white;
+    background-color: #1366C3;
+    border-radius: 0.4vw;
+    border-color: #1366C3;
+    
+}
+
+#jadwal button:hover {
+    font-size:2vw;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.2vw;
+    font-weight: 400;
+    color: #1366C3;
+    background-color: white;
+    border-color: #1366C3;
+}
+
+
+#deskripsi h5{
+    font-size: 2vw;
+    text-align: justify;
+    margin: 1vw 0;
+    color: #1366C3;
+}
+
+#deskripsi p {
+    font-size: 1.4vw;
+    text-align: justify;
+}

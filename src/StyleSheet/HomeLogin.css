@@ -1,0 +1,43 @@
+.navbarHome .container nav {
+  display: flex;
+  justify-content: space-between;
+}
+.navbarHome .container img {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.navbar-nav li {
+  padding: 1.2vw 0;
+}
+
+.btn-login button {
+  background-color: #1366c3;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  border: none;
+}
+
+.img-nav button {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0vw;
+  font-weight: 400;
+  border-radius: 0;
+}
+
+
+
+@media screen and (min-width: 300px) and (max-width: 767px) {
+  .img-nav button {
+    font-size: 8px;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 0.2vw;
+    font-weight: 400;
+    /* background-color: #1366c3; */
+    border-radius: 0;
+    /* border-color: #1366c3; */
+    border: 0px solid;
+  }
+
+}

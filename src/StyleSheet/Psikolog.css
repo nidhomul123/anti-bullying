@@ -1,0 +1,208 @@
+.Psikolog{
+    max-width: 100vw;
+}
+.Psikolog .container{
+    align-items: center;
+    max-width: 100vw;
+}
+
+#psikolog{
+    width: 60%;
+}
+#psikolog .profil-komunitas {
+    padding: 0;
+    margin: 0;
+}
+#psikolog .profil-komunitas img{
+    width: 20vw;
+    height: 12vw;
+    object-fit: cover;
+}
+
+#psikolog .psikologCard h6{
+    font-size: 2vw;
+}
+
+#psikolog .psikologCard h5 {
+    font-size: 2vw;
+}
+#psikolog .psikologCard{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 1vw;
+    border: 1px solid rgb(225, 222, 222);
+}
+
+#psikolog .profil-komunitas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start; 
+}
+
+#psikolog .profil-komunitas h6{
+    text-align: start;
+}
+
+#psikolog .deskripsi-komunitas{
+    margin-left: 1vw;
+}
+
+.card-psikolog {
+    background: #FFFFFF;
+    border: 1px solid #1366C3;
+    box-shadow: 0px 4px 4px rgba(35, 39, 255, 0.25);
+    border-radius: 5px;
+    width: 70vw;
+}
+
+.card-psikolog .col-6 {
+    display: flex;
+    justify-content: center;
+}
+.card-img-psikolog img {
+    height:min-content;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.btn-card-piskolog button {
+    background-color: #1366C3;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    border: none;
+    margin-right: 2vw;
+    letter-spacing: 0.2vw;
+    border-radius: 0px;
+    color: white;
+    /* width: vw; */
+}
+
+.btn-card-piskolog button:hover{
+    background-color: white;
+    color: #1366C3;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    border: none;
+    letter-spacing: 0.2vw;
+    border-radius: 0px;
+    border-color: #1366C3;
+    border-style: solid;
+}
+
+.psikolog-name h3 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 27px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.2vw;
+    text-transform: uppercase;
+}
+
+
+.psikolog-job h4 {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 27px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.1vw;
+
+}
+
+.psikolog-job h5 {
+    /* font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6vw;
+    line-height: 20px; */
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 27px;
+    font-family: 'Poppins', sans-serif !important;
+    letter-spacing: 0.1vw;
+}
+
+/* @media screen and (min-width: 992px) {
+    .psikolog-job h4 {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 2vw;
+            line-height: 22px;
+            margin-bottom: 0.6vw;
+            margin-top: 1.4vw;
+    
+        }
+} */
+/* .profil-komunitas img{
+width: 100%;
+} */
+@media screen and (min-width: 400px) and (max-width: 700px) {
+    .card-psikolog {
+        background: #FFFFFF;
+        border: 1px solid #1366C3;
+        box-shadow: 0px 4px 4px rgba(35, 39, 255, 0.25);
+        border-radius: 5px;
+        width: 100%;
+    }
+    .psikolog-name h3 {
+        font-family: 'Poppins', sans-serif;        
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        letter-spacing: 0.2vw;
+        text-transform: uppercase;
+    }
+    
+    .psikolog-job h4 {
+        font-family: 'Poppins', sans-serif;        
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        letter-spacing: 0.2vw;
+        margin-bottom: 0;
+    }
+    
+    .psikolog-job h5 {
+        font-family: 'Poppins', sans-serif;        
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+    }
+}
+
+.add-Artikel button {
+    background-color: #1366C3;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    border: none;
+    letter-spacing: 0.2vw;
+    border-radius: 0px;
+    color: white;
+    /* width: 2vw; */
+}
+
+.add-Artikel button:hover{
+    background-color: white;
+    color: #1366C3;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    border: none;
+    letter-spacing: 0.2vw;
+    border-radius: 0px;
+    border-color: #1366C3;
+    border-style: solid;
+}
+
+.card-komunitas{
+    width: 50%;
+}

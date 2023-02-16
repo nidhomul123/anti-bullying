@@ -1,0 +1,82 @@
+.Footer{
+    background-color: #1366C3;
+    color: white;
+}
+.right-table p{
+    text-align: left;
+}
+
+
+.icon-footer img{
+    width: 30px;
+    height: 30px;
+}
+
+.icon-footer {
+    width: 20%;
+}
+
+.right-table p{
+    font-weight: 400;
+    letter-spacing: 0.1vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+.desc-footer h6{
+    font-weight: 400;
+    letter-spacing: 0.1vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title h5{
+    font-weight: 800;
+    letter-spacing: 0.1vw;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.footer-sosmed h6{
+    font-weight: 400;
+    letter-spacing: 0.1vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+@media screen and (max-width: 767px) and (min-width: 400px) {
+    .footer-sosmed h6{
+        font-weight: 400;
+        letter-spacing: 0.1vw;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5vw;
+    }
+    .right-table p{
+        font-size: 1.5vw;
+        font-weight: 400;
+        letter-spacing: 0.1vw;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .left-table p{
+        font-size: 1.5vw;
+        font-weight: 400;
+        letter-spacing: 0.1vw;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .title h5{
+        font-size: 2vw;
+    }
+
+    .desc-footer h6{
+        font-size: 1.5vw;
+        font-weight: 400;
+        letter-spacing: 0.1vw;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .icon-footer img{
+        width: 15px;
+        height: 15px;
+    }
+}
+

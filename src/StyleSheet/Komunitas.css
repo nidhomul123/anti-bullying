@@ -1,0 +1,107 @@
+.card-komunitas{
+    width: 80vw;
+    font-size: 2vw;
+}
+
+.komunitas h6{
+    font-size: 2.2vw;
+}
+
+.deskripsi-komunitas h6{
+    font-size: 2vw;
+}
+.profil-komunitas img{
+    width: 50%;
+    height: auto;
+}
+
+.profil-komunitas h6{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+#komunitas{
+    width: 100vw;
+}
+
+#komunitas #listKomunitas{
+    width: 60%;
+}
+#komunitas button{
+    width: fit-content;
+    margin-top: 1vw;
+}
+
+#listKomunitas .profil-komunitas img{
+    width: 10vw;
+}
+
+.card{
+    width: 90%;
+}
+
+.deskripsi-komunitas h6{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.5vw;
+}
+.deskripsi-komunitas h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1vw;
+}
+
+.alamat.komunitas h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1vw;
+}
+
+.show-komunitas button{
+    background-color: #1366C3;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    border: none;
+    letter-spacing: 0.1vw;
+    border-radius: 2px;
+    color: white;
+}
+
+.show-komunitas button:hover{
+    background-color: white;
+    color: #1366C3;
+    border-color: #1366C3;
+    border-style: solid;
+}
+
+@media screen and (min-width: 400px) and (max-width: 767px) {
+    .show-komunitas button{
+        background-color: #1366C3;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.2vw;
+        border: none;
+        letter-spacing: 0.2vw;
+        border-radius: 0px;
+        color: white;
+    }
+
+    .show-komunitas button:hover{
+        background-color: white;
+        color: #1366C3;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.2vw;
+        border: none;
+        letter-spacing: 0.2vw;
+        border-radius: 0px;
+        border-color: #1366C3;
+        border-style: solid;
+    }
+}
